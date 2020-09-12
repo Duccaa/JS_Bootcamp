@@ -1,0 +1,13 @@
+body {
+    background-color: burlywood;
+}
+.alert {
+    color: brown;
+}
+
+#form-container, #search-container, #list-container {
+    padding: 1em;
+    border: 0.5em;
+    border-color: brown;
+    border-style: solid;    
+}

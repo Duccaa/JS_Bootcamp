@@ -1,0 +1,26 @@
+* {
+  margin: 0; 
+  padding: 0;
+}
+header {
+   background-color: coral;
+   height: 15vh;
+}
+main {
+background-color: khaki;
+height: 65vh;
+}
+footer {
+background-color: darksalmon;
+height: 20vh;
+}
+nav ul li {
+   display: inline-block;
+   background-color: khaki;
+   padding: 1em;
+   margin: 1em; 
+}
+ul {
+   list-style: none; 
+   color: coral;
+}
