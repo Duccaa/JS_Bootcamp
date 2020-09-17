@@ -14,6 +14,7 @@ const PersonForm= ({persons, setPersons}) => {
         return () => clearTimeout(timer);
     }, [error]);
 
+// ovo je za konzol log da se ispise osoba, poslednja dodata    
     useEffect(() => {
         const interval = setInterval(() => {   
             console.log(persons[persons.length-1])
