@@ -18,7 +18,7 @@ getAllLaunches()
 // drugi nacin:
 getLunchesByYear(2019)
 .then(res => {
-   console.log(res.data.launch_year)
+   console.log(res.data)
    app.appendChild(LaunchList(res.data))
 })   
 

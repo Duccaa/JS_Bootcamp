@@ -31,7 +31,7 @@ function update (posts) {
         p.textContent = post.text
 
         const img = document.createElement('img')
-        img.src = podt.postImg
+        img.src = post.postImg
         img.width = '50'
         
         const likes = document.createElement('div')

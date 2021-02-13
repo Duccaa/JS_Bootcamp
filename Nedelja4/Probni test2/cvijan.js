@@ -127,10 +127,9 @@ btnInsert.addEventListener('click', () => {
             <p>3. Вредност мора бити број</p>
         `
         itemList.appendChild(greska)
-
         setTimeout(() => {
             greska.remove()
-        },1200)
+        },1200) // milisekunde
 
         return 
     }
